@@ -12,6 +12,7 @@ Release History: Employee Form Management System
 
 
 v1.0.0 - Initial Release
+Date : 30-09-2024
 
 Initial setup of the employee form management system.
 Basic form structure using HTML and Bootstrap.
@@ -23,6 +24,7 @@ Initial JavaScript functions to handle form data retrieval and manipulation (get
 
 
 v1.1.0 - Navigation and Record Handling Enhancements
+Date : 30-09-2024
 
 Added JavaScript functions for handling record navigation:
 getFirst(), getNext(), getPrev(), getLast() for navigating between employee records.
@@ -32,6 +34,7 @@ Implemented the checkForNoOrOneRecord() function to handle navigation control.
 
 
 v1.1.1 - Form Reset Functionality Improvement
+Date : 30-09-2024
 
 Enhanced resetForm() to properly reload the current record upon resetting.
 Fixed a bug where form values were not properly reloaded after the reset.
@@ -39,6 +42,7 @@ Proper handling of local storage for keeping track of the current record.
 
 
 v1.2.0 - Data Validation and Error Handling
+Date : 30-09-2024
 
 Added robust validation in validateData() function for all form fields:
 Ensured non-empty fields for Employee ID, Name, Salary, HRA, DA, and Deduction.
@@ -48,6 +52,7 @@ Introduced error messaging for invalid employee data fetch.
 
 
 v1.3.0 - Bug Fixes and Code Improvements
+Date : 01-10-2024
 
 Fixed an issue with the validateData() function where field values were being incorrectly reset.
 Optimized form field fetching and validation to prevent clearing of form inputs during validation.
@@ -56,18 +61,20 @@ Introduced a cleaner, more organized form submission process in saveData().
 
 
 v1.3.1 - Minor Bug Fix in Form Submission
+Date : 01-10-2024
 
 Fixed a minor issue in saveData() where form submission resulted in incorrect output due to an improperly focused input field.
 Adjusted focus behavior for better user interaction after form submission.
 
 
 v1.4.0 - UI Enhancements and Refactoring
+Date : 01-10-2024
 
 Refined the form layout for better responsiveness on smaller screens.
 Simplified button disable/enable logic for improved user experience.
 Added Bootstrap form styling for better UI consistency.
 
 
-Completition Time : 4 days
+Completition Time : 2 days
 
 Project Status : Completed
